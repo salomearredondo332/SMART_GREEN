@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Propiedades principales*/
+body{
+    background-color: #88b49b;
+}
+
+/* NAVEGACIÓN */
+
+.nav_jugar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #cfb084;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px;
+    height: 80px;
+}
+
+.nav_jugar p{
+    display: inline-block;
+    font-family: 'Chewy', cursive;
+    font-size: 20px;
+    background-color: #e1dba9;
+    padding: 13px;
+    text-align: center;
+    height: 50px;
+}
+
+.nav_jugar a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav_jugar a:hover{
+    text-shadow: 0px 3px 0px  #c3df47;
+}
+
+.nav_jugar #puntajes{
+    background-color: #cfb084;
+}
+
+.nav_jugar #menu{
+    border-radius: 30px;
+    padding: 16px;
+}
+
+.nav_jugar #dificultades{
+    margin-right: 90px;
+}
+
+/* propiedades contenedor */
+
+.container_jugar h1{
+    font-family: 'Chewy', cursive;
+    font-size: 90px;
+    text-align: center;
+}
+
+.container_jugar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* propiedades imagen */
+
+.img_jugar{
+    text-align: center;
+}
+
+.img_jugar img{
+    background-color: #e1dba9;
+    border-radius: 30%;
+    width: 300px;
+    margin: 50px;
+    box-shadow: 5px 3px 10px 5px #7a9434;
+    transform: rotate(10deg);
+}

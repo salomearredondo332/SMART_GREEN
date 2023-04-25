@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+
+.navegacion_residuos h1{
+    text-align: center;
+    width: 90%;
+    background-color: rgb(207, 185, 110) ;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+.contenedor_residuos{
+    display: flex;
+    width: 100%;
+}
+
+.izquierda_residuos{
+    width: 50%;
+    text-align: center;
+}
+
+.izquierda_residuos img{
+    width: 150px;
+}
+
+.izquierda_residuos p{
+    background-color: #ddc87c;
+width: 80%;
+text-align: center;
+padding: 20px;
+margin: 30px;
+border-radius: 10px;
+
+   
+    
+}
+
+.izquierda_residuos h2{
+    background-color: #49b477;
+    border-radius: 70px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.derecha_residuos{
+    width: 40%;
+    text-align: center;
+}
+
+.derecha_residuos img{
+width: 150px;
+
+
+}
+
+.derecha_residuos p{
+background-color: #ddc87c;
+width: 80%;
+text-align: center;
+padding: 20px;
+margin: 30px;
+border-radius: 10px;
+
+}
+
+.derecha_residuos h2{
+    background-color: #49b477;
+    border-radius: 70px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+p{
+    font-family:chewy ;
+}
+
+
+#boton{
+    background-color: #66eb7a;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+

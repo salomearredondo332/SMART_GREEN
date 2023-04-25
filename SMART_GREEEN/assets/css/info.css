@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chewy', cursive;
+}
+
+body{
+    background-color:#88b49b;
+}
+
+/* NAVEGACION */
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 87px;
+    background: #cfb084 ;
+    border-radius: 50px;
+    margin: 10px;
+   
+}
+
+.nav img{
+    width: 80px; 
+    border: 8px solid #e6eb65;
+    border-radius: 90px;
+    margin: 30px;
+}
+
+.nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #dbce98 ;
+    padding: 15px 20px;
+    color: #000;
+    border-radius: 20px;
+}
+
+.nav h2{
+    font-size: 40px;
+    margin-right: 110px;
+}
+
+.nav #menu{
+    margin-left: -200px;
+}
+
+.nav #info{
+    margin-right: 40px;
+}
+
+/* CONTENEDOR TEXTOS */
+
+.container #p2{
+    background-color: #e1dba9;
+    border-radius: 80px;
+    padding: 20px;
+    margin: 30px;
+    width: 70%;
+    font-size: 16px;
+}
+
+.container #p1{
+    margin: 30px 70px;
+    font-size: 20px;
+}
+
+/* CONTENEDOR DE ABAJO */
+
+.container-abajo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-abajo img{
+    width: 180px;
+    margin: 10px 70px;
+}
+
+.container-abajo p{
+    background-color: #e29648;
+    border: 6px dashed #e0dd9e;
+    border-radius: 70px;
+    width: 310px;
+    padding: 40px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}

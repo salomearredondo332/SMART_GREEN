@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Propiedades principales*/
+body{
+    background-color: #88b49b;
+}
+
+.container_inicio{
+    display: flex; 
+}
+
+/*-----Propiedades parte izquierda-----*/
+
+.izquierda{
+    background-color: #cfb084;
+    border-radius: 30px;
+    width: 23%;
+    height: 100%;
+    margin: 15px 30px;
+}
+
+.arriba{
+    display: flex;
+}
+
+.arriba img{
+    width: 90px;
+    border: 8px solid #e0e688;
+    border-radius: 50%;
+    margin: 10px 20px;
+}
+
+.arriba h5{
+    background-color: #6d84a3;
+    color: #fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto;
+    padding: 10px;
+    height: 30px;
+}
+
+.izquierda p{
+    display: inline-block;
+    font-family: 'Chewy', cursive;
+    font-size: 25px;
+    background-color: #e1dba9;
+    margin: 15px 30px;
+    padding: 15px;
+    width: 80%;
+    text-align: center;
+}
+
+.izquierda #opciones{
+    text-align: start;
+}
+
+.izquierda a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.izquierda a:hover{
+    color: rgb(122, 179, 57);
+    text-shadow: 0px 3px 0px  #000000;
+}
+
+/*-----Propiedades parte derecha-----*/
+
+.derecha{
+    width: 77%;
+    text-align: center;
+}
+
+.derecha img{
+    width: 250px;
+    margin: 20% 5% 0% -10%;
+}
+
+.derecha h1{
+    position: absolute;
+    margin: -20px 26%;
+    color: #fff;
+    text-shadow: 0px 3px 0px  #000000;
+    font-size: 50px; 
+}

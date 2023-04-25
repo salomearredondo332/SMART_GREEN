@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#88b49b;
+}
+
+/* NAVEGACION */
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 87px;
+    background: #cfb084 ;
+    border-radius: 50px;
+   
+}
+
+.nav img{
+    width: 80px; 
+    border: 8px solid #e6eb65;
+    border-radius: 90px;
+    margin: 30px;
+}
+
+.nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #dbce98 ;
+    padding: 15px 20px;
+    color: #000;
+    border-radius: 20px;
+    font-family: 'Chewy', cursive;
+}
+
+.nav h2{
+    font-size: 40px;
+    font-family: 'Chewy', cursive;
+    margin-right: 110px;
+}
+
+.nav #menu{
+    margin-left: -200px;
+}
+
+.nav #info{
+    margin-right: 40px;
+}
+
+/* contenedor */
+
+.main{
+    display: flex;
+    justify-content:space-between;
+}
+
+.main #logo {
+    width: 230px;
+    height: 260px;
+    margin: 90px 40px;
+}
+
+/* centro */
+
+.centro{
+    background-color: #e8dcac;
+    border-radius: 30px;
+    margin: 20px;
+    width: 480px;
+}
+
+.centro h3{
+    background-color: #2f8252;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Chewy', cursive;
+}
+
+
+.form input{
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 35px 150px;
+    border-radius: 20px;
+}
+
+.centro #parrafo{
+    background-color: #51b97e;
+    border-radius: 20px;
+    border: 6px dashed #fff;
+    margin: 50px;
+    font-family: 'Chewy', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.centro button{
+    background-color: #4fb97e;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 200px;
+    margin: 20px;
+}
+
+.centro img{
+    width: 90px;
+    margin-left: 30px;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chewy', cursive;
+}
+
+/*Propiedades principales*/
+body{
+    background-color: #88b49b;
+}
+
+/* nav_reciclajeEGACIÓN */
+
+.nav_reciclaje {
+    display: flex;
+    justify-content: space-between;
+    background-color: #cfb084;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 15px;
+    height: 80px;
+}
+
+.nav_reciclaje p{
+    display: inline-block;
+    font-size: 20px;
+    background-color: #e1dba9;
+    padding: 13px;
+    text-align: center;
+    height: 50px;
+}
+
+.nav_reciclaje a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav_reciclaje a:hover{
+    text-shadow: 0px 3px 0px  #c3df47;
+}
+
+.izquierda_reciclaje #puntajes{
+    background-color: #cfb084;
+    margin-left: 30px;
+}
+
+.izquierda_reciclaje #menu{
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+/* propiedades contenedor */
+.container_reciclaje h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.container_reciclaje h3{
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(46, 71, 53);
+}
+
+.img-banana{
+    text-align: center;
+    margin: 20px;
+}
+
+.img-banana img{
+    width: 270px;
+}
+
+.basuras{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.basuras img{
+    width: 230px;
+}
+
+.residuos p a{
+    color: #000000;
+}
+
+.residuos{
+    display: flex;
+    justify-content:space-between;
+    margin: 20px 335px;
+}

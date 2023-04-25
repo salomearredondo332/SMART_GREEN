@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chewy', cursive;
+}
+
+body{
+    background-color:#88b49b;
+}
+
+/* NAVEGACION */
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 87px;
+    background: #cfb084 ;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.nav img{
+    width: 80px; 
+    border: 8px solid #e6eb65;
+    border-radius: 90px;
+    margin: 30px;
+}
+
+.nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #dbce98 ;
+    padding: 15px 20px;
+    color: #000;
+    border-radius: 20px;
+}
+
+.nav h2{
+    font-size: 40px;
+    margin-right: 110px;
+}
+
+.nav #menu{
+    margin-left: -200px;
+}
+
+.nav #info{
+    margin-right: 40px;
+}
+
+/* CONTENEDOR ESTILOS */
+
+.container h3{
+    background-color: #50ba7b;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    width: 20%;
+    text-align: center;
+}
+
+.container h2{
+    text-align: center;
+    padding: 10px;
+    background-color: #2d8352;
+    border-radius: 50px;
+}
+
+
+/* DIV DE LAS CREADORAS */
+
+.creadores {
+    display: flex;
+    background-color: #e2daaa;
+    border-radius: 50px;
+    margin: 20px 30px;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+/* DIV DE DISEÑO Y FLEX */
+
+.propo_result{
+    background-color: #e2daaa;
+    border-radius: 50px;
+    margin: 40px 30px;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+.proposito{
+    display: flex;
+}
+
+.resultados{
+    display: flex;
+}
+
+.resultados h3{
+    width: 40%;
+}
+
+/* PARRAFO FINAL */
+
+.container #contacto{
+    text-align: center;
+    color: #2b423a;
+    font-size: 20px;
+}

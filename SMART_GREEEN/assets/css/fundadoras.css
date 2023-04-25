@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chewy', cursive;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color:#88b49b;
+}
+
+/* NAVEGACION */
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 87px;
+    background: #cfb084 ;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.nav img{
+    width: 80px; 
+    border: 8px solid #e6eb65;
+    border-radius: 90px;
+    margin: 30px;
+}
+
+.nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #dbce98 ;
+    padding: 15px 20px;
+    color: #000;
+    border-radius: 20px;
+}
+
+.nav h2{
+    font-size: 40px;
+    margin-right: 110px;
+}
+
+.nav #menu{
+    margin-left: -200px;
+}
+
+.nav #info{
+    margin-right: 40px;
+}
+
+/* TEXTO */
+
+.container h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+}
+
+/* CONTENEDOR */
+
+.container img{
+    width: 310px;
+    background-color: #2d8352;
+    border-radius: 20px;
+}
+
+/* CONTENEDOR DE LAS IMAGENES */
+
+.primeras3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* TEXTO DE LAS FUNDADORAS */
+
+.textos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.textos #pau{
+    margin-left: -70px;
+}
+
+.textos #salo{
+    margin-right: -70px;
+}
+
+/* -------- FUNDADORAS 2-------- */
+
+.boton{
+    text-align: end;
+    margin-right: 40px;
+}
+
+.boton button{
+    background-color: #cfb084;
+    padding: 10px;
+    font-size: 20px;
+}
